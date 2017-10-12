@@ -47,7 +47,7 @@ Connect the joystick using the USB cable and run:
 Disconnect the joystick.
 It should stop blinking its leds and just one should be on.
 
-## Run tests
+## Run tests
 
 `npm start`
 
