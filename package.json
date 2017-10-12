@@ -1,0 +1,31 @@
+{
+  "name": "sixaxis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/sixaxis-test.git"
+  },
+  "keywords": [
+    "sixaxis",
+    "raspberrypi",
+    "node"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/sixaxis-test/issues"
+  },
+  "homepage": "https://github.com/codealchemist/sixaxis-test#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "dualshock": "^2.2.2",
+    "node-gyp": "^3.6.2",
+    "node-hid": "^0.5.7",
+    "node-pre-gyp": "^0.6.38"
+  }
+}
