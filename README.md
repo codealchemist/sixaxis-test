@@ -3,6 +3,10 @@ Test PS3 SixAxis controller from node on a RaspberryPi.
 
 ## Install notes
 
+Install node on the raspi:
+
+`wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v7.7.1.sh | bash`
+
 Install Linux dependencies:
 
 `sudo apt-get install libudev-dev libusb-1.0-0 libusb-1.0-0-dev build-essential git`
@@ -53,3 +57,6 @@ It should stop blinking its leds and just one should be on.
 
 It should connect to your joystick and display events on console.
 
+## Sources
+
+https://raspberryblog.de/?p=1870
