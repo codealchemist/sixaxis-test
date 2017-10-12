@@ -4,12 +4,15 @@ Test PS3 SixAxis controller from node on a RaspberryPi.
 ## Install notes
 
 Install Linux dependencies:
+
 `sudo apt-get install libudev-dev libusb-1.0-0 libusb-1.0-0-dev build-essential git`
 
 Install `node-hid` with:
+
 `npm install node-hid --driver=hidraw`
 
 Install patched bluez:
+
 ```
 git clone https://github.com/luetzel/bluez
 cd bluez
@@ -21,6 +24,7 @@ sudo systemctl start bluetooth
 ```
 
 Install SixAxis pairing tool and its Linux dependencies:
+
 ```
 sudo apt-get install pyqt4-dev-tools qt4-designer libjack-dev
 wget http://downloads.sourceforge.net/project/qtsixa/QtSixA%201.5.1/QtSixA-1.5.1-src.tar.gz
