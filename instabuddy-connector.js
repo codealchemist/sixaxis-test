@@ -27,8 +27,8 @@ class InstabuddyConnector {
       console.log('Delayed playback, waiting for WS to connect...')
       setTimeout(() => {
         this.play({channel, id, src})
-        return
       }, 250)
+      return
     }
 
     const message = {
