@@ -8,8 +8,9 @@ function play (button) {
   const audioFile = audioMap[button]
   if (!audioFile) return
 
+  console.log(`[ ${button} ] PLAYING ${audioFile}`)
   player.play(`${audioPath}/${audioFile}`, (err) => {
-    console.log('AUDIO ERR:', err)
+    if (err) console.log('AUDIO ERR:', err)
   })
 }
 
