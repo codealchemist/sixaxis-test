@@ -27,6 +27,7 @@
     "dualshock": "^2.2.2",
     "node-gyp": "^3.6.2",
     "node-hid": "^0.5.7",
-    "node-pre-gyp": "^0.6.38"
+    "node-pre-gyp": "^0.6.38",
+    "play-sound": "^1.1.1"
   }
 }
